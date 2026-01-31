@@ -20,6 +20,8 @@
  
  **Referencia**: `dashboardfacturas.png`
  
+ ![Referencia Reto 1 - Dashboard de Facturas](./dashboardfacturas.png)
+ 
  ### Objetivo
  Construir una pantalla de “Panel de Control” con:
  
@@ -57,6 +59,8 @@
  ## Reto 2: Cards de Menú (Grid + Navbar)
  
  **Referencia**: `dashboardcards.png`
+ 
+ ![Referencia Reto 2 - Cards de Menu](./dashboardcards.png)
  
  ### Objetivo
  Construir una página tipo restaurante con:
