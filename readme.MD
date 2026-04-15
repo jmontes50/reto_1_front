@@ -48,6 +48,32 @@ Construir una página tipo restaurante con:
   - Separación/espaciado consistente (padding y gap).
 - Grid de 3 columnas en desktop.
 
+### Antes de escribir código
+
+Vale la pena tomarse unos minutos para pensar antes de arrancar. No hay un orden correcto, pero estas preguntas pueden ayudarte:
+
+1. ¿Cuántas secciones tiene la página? Obsérvala bien antes de tocar el editor.
+2. ¿Qué HTML necesitas? Intenta identificar los bloques principales primero.
+3. ¿Qué nombres de clases tienen sentido? Definirlos antes hace el CSS más fácil de escribir.
+4. ¿Por dónde empiezas a estilizar? Una buena pista: de lo general a lo particular.
+
+---
+
+### Sobre el layout: Grid vs Flex
+
+Puedes usar **Flexbox** en este reto, pero considera cuál es la herramienta ideal según el caso:
+
+| Situación | Recomendado |
+|---|---|
+| Grid de cards (2D, filas y columnas) | `display: grid` |
+| Navbar (elementos en línea horizontal) | `display: flex` |
+| Fila nombre + precio dentro de la card | `display: flex` |
+| Centrar contenido verticalmente | `display: flex` |
+
+**Regla simple**: usa `grid` cuando pienses en filas **y** columnas a la vez; usa `flex` cuando el contenido fluya en **una sola dirección**.
+
+No está mal combinarlos: Grid para la estructura general, Flex para los detalles internos.
+
 ### Checklist de entrega
 - [ ] Navbar simple y limpia.
 - [ ] Grid de 3 columnas.
